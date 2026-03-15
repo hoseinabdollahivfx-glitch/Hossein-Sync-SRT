@@ -1,0 +1,5 @@
+{
+  "name": "Remix: Hossein WaveSync Subtitle Editor",
+  "description": "Online subtitle editor with waveform synchronization. Upload audio and SRT files, drag and drop to sync, and edit text.",
+  "requestFramePermissions": []
+}

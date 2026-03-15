@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+.waveform-region:hover {
+  border-color: rgba(255, 255, 255, 0.8) !important;
+  background-color: rgba(249, 115, 22, 0.8) !important;
+}
+
+.waveform-region.selected {
+  border-color: rgba(255, 255, 255, 1) !important;
+  background-color: rgba(249, 115, 22, 0.95) !important;
+  z-index: 10 !important;
+}
+
+.waveform-region-handle {
+  transition: background-color 0.2s ease;
+}
+
+.waveform-region:hover .waveform-region-handle {
+  background-color: rgba(255, 255, 255, 0.6) !important;
+}
+
+.waveform-region.selected .waveform-region-handle {
+  background-color: rgba(255, 255, 255, 0.9) !important;
+}
